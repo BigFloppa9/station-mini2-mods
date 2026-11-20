@@ -1,0 +1,15 @@
+server:
+	verbosity: 1
+	msg-cache-size: 2m
+	rrset-cache-size: 2m
+	username: "nobody"
+	local-zone: "startup.mobile.yandex.net." always_nxdomain
+	local-zone: "startup.appmetrica.yandex.net." always_nxdomain
+	local-zone: "report.appmetrica.yandex.net." always_nxdomain
+	local-zone: "clck.yandex.net." always_nxdomain
+	local-zone: "startup.appmetrica.yango.com." always_nxdomain
+	local-zone: "report.appmetrica.yango.com." always_nxdomain
+	local-zone: "clck.yasmina.yango.com." always_nxdomain
+
+forward-zone:
+	name: "."
